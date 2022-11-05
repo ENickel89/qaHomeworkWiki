@@ -1,5 +1,6 @@
 describe("Testing the calculator", () => {
-    test("Example test", () => {
+  /*example*/
+  test("Example test", () => {
       expect(calculator.add(2, 50)).toBe(52);
     });
     test("Addition works", () => {
@@ -23,7 +24,7 @@ describe("Testing the calculator", () => {
       });
     });
   });
-  
+  // conduct test//
   const calculator = {
     /** Takes two numbers and adds them together.
      * @example
